@@ -1,0 +1,86 @@
+body{
+    min-height: 100vh;
+    /* background-color: #e500a4;
+    background-color: -webkit-linear-gradient(204deg, #e500a4 0%, #0d1984 100%);
+    background: linear-gradient(204deg, #e500a4 0%, #0d1984 100%); */
+    background: #0d1984;
+    background: -webkit-linear-gradient(360deg, #0d1984 0%, #a316cc 50%, #0d1984 100%);
+    background: linear-gradient(360deg, #0d1984 0%, #a316cc 50%, #0d1984 100%);
+  
+}
+.blub{
+    border-left: 2px solid #0d1984;
+    border-right: 2px solid #0d1984;
+    -webkit-box-shadow: 2px 1px 32px 20.5px rgba(13, 25, 133, 0.72);
+-moz-box-shadow: 2px 1px 32px 20.5px rgba(13, 25, 133, 0.72);
+box-shadow: 2px 1px 32px 20.5px rgba(13, 25, 133, 0.72);
+}
+
+img{
+    max-height: 35vh;
+}
+
+.heading{
+    font-size: 1.8rem;
+    color: white;
+    opacity: .5;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;;
+}
+
+.label{
+    color: rgba(255, 255, 255, 0.919);
+    font-weight: bold;
+}
+
+textarea{
+    width: 100%;
+}
+
+.last{
+    margin-bottom: 100px;
+}
+
+.btn{
+    background-color: #ee0cfa;;
+    /* background-color: #409097; */
+}
+
+.ws{
+    word-spacing: 3px;
+}
+
+input[type="text"],input[type="email"],input[type="tel"]{
+    border: none;
+    border-bottom:2px solid #fff;
+}
+
+.form-control{
+    background: transparent;
+    color: white;
+}
+.form-select{
+    background: transparent;
+    border: none;
+    border-bottom:2px solid #fff;
+    color: white;
+}
+.form-select:focus,.form-control:focus{
+    outline:2px solid #ee0cfa;
+    background-color: transparent;
+    color: white;
+}
+
+input[type="date"]{
+    color: white;
+}
+/* input[type=all]::placeholder{ */
+/* input[type="text"]::placeholder,input[type="email"]::placeholder,input[type="tel"]::placeholder,textarea::placeholder{
+
+   color: #e500a4;
+} */
+
+.form-control::placeholder{
+    color: #ee0cfa;
+}
+
